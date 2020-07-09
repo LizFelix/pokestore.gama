@@ -1,12 +1,12 @@
 import React from "react";
 import * as S from "./styled.js";
-import { divCard } from "../Card/styled.js";
+//import { divCard } from "../Card/styled.js";
 
 export default function ShoppingCart({removeStatePokemon, pokemonCart, totalPrice, endShop }) {
 
   return (
     <S.containerCart>
-      <S.title>CARRINHO DE COMPRAS</S.title>
+      <S.title>Carrinho de Compras</S.title>
       <S.listShoppingCart>
         {pokemonCart ? pokemonCart.map((pokemonCurrent, index) => {
           return (
@@ -29,7 +29,7 @@ export default function ShoppingCart({removeStatePokemon, pokemonCart, totalPric
             <h2>Total:</h2>
             <strong>R${totalPrice? totalPrice : 0}</strong>
       </S.total>
-      <S.button onClick={() => endShop()}>FINALIZAR COMPRA</S.button>
+      <S.button onClick={() => endShop()}>Finalizar Compra</S.button>
     </S.containerCart>
   );
 

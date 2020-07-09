@@ -2,7 +2,7 @@ import styled from 'styled-components'
 import { MdClose } from 'react-icons/md'
 
 export const containerCart = styled.div`
-    border: 1px solid #040404;
+    border: 1px solid #050605;
     display: flex;
     flex-direction: column;
     margin-bottom: 10px;
@@ -34,7 +34,7 @@ export const title = styled.h2`
 export const listShoppingCart = styled.div`
     overflow-Y: scroll;
     scrollbar-color: yellow;
-    min-width: 250px;
+    min-width: 200px;
     max-height: 150px;
 `
 export const listItem = styled.div`
@@ -42,7 +42,7 @@ export const listItem = styled.div`
     justify-content: space-between;
     align-items: center;
     padding: 10px 20px;
-    border: 1px groove  rgba(0, 0, 0, 0.15); 
+    border: 1px groove  rgba(10, 10, 10, 10.15); 
 `
 
 export const info = styled.div`

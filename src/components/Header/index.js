@@ -15,11 +15,10 @@ export default function Header({pokemonSearchName}) {
   return (
     <S.Header>
       <S.divSearch>
-        <S.inputName value={pokemonName} onChange={e => setPokemonName(e.target.value)} placeholder="Pesquise pelo nome"></S.inputName>
+        <S.inputName value={pokemonName} onChange={e => setPokemonName(e.target.value)} placeholder="Pesquise o Pokémon"></S.inputName>
         <S.buttonSearch type="button" onClick={handlePesquisa}><FaSearch/></S.buttonSearch>
       </S.divSearch>
 
-      <a href="https://github.com/PatriciaClares/pokestore" rel="noopener noreferrer" target="_blank"><S.fiGithub /></a>
     </S.Header>
   );
 }

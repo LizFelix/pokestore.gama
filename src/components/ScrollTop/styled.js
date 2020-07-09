@@ -5,7 +5,7 @@ import { FaArrowUp } from 'react-icons/fa'
 export const scrollTopIcone = styled(FaArrowUp)`
     display:flex;
     position:fixed;
-    background-color:yellow;
+    background-color:red;
     border-radius:15px;
     width:35px;
     padding:5px;
@@ -16,7 +16,7 @@ export const scrollTopIcone = styled(FaArrowUp)`
     transition: opacity 0.4s;   
 
     &:hover{
-        background-color: red
+        background-color: red;
     }
     
 `

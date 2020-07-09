@@ -6,6 +6,7 @@ import Card from "./components/Card";
 import ShoppingCart from './components/ShoppingCart'
 import Modal from './components/Modal'
 import ScrollTop from './components/ScrollTop'
+import Footer from './components/Footer';
 
 import "./style.css";
 
@@ -41,11 +42,12 @@ export default function App() {
       </S.divMap>
 
       <S.divButton>
-        <S.button onClick={() => loadPokemon(limit, offset)}>VER MAIS </S.button>
+        <S.button onClick={() => loadPokemon(limit, offset)}> + </S.button>
       </S.divButton>
 
       <ScrollTop />
       {isShowModal()}
+      <Footer />
     </S.container>
   );
 
